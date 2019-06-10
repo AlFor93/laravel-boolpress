@@ -17,9 +17,17 @@ Laravel, PHP, PhpMyAdmin, MySQL, SASS
 
 # Screenshot
 
-![](Screenshot_1.jpg)
+![](boolpress-home.jpg)
 
 <hr>
 
-![](Screenshot_2.jpg)
+![](boolpress-archive.jpg)
+
+<hr>
+
+![](boolpress-author.jpg)
+
+<hr>
+
+![](boolpress-categories.jpg)
 
