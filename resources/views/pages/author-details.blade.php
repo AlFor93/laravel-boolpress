@@ -18,8 +18,9 @@
 
   </div>
 @endif
+<div class="table-cont">
 
-  <table>
+  <table class=author-details>
     <tr>
       <td><b>NAME</b></td>
       <td><b>LASTNAME</b></td>
@@ -40,7 +41,6 @@
     </tr>
   </table>
   <br>
-  <div class=table-cont>
 
   <table>
     <td><b>TITLE</b></td>
@@ -51,7 +51,7 @@
         <tr>
           <td>{{ $post -> title }}</td>
           <td>{{ $post -> content }}</td>
-          <td>{{ $post -> publication_date }}</td>
+          <td>{{ $post -> updated_at }}</td>
       </tr>
       @endforeach
 
@@ -59,9 +59,9 @@
 
 </div>
 
-  <div class="button-cont">
+<div class="button-cont">
 
-    <button type="button"> <a href="/"> Torna alla Home</a> </button>
-  </div>
+  <button type="button"> <a href="/"> Torna alla Home</a> </button>
+</div>
 
 @stop

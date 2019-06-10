@@ -33,7 +33,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+      return view('pages.new-post');
     }
 
     /**
@@ -44,7 +44,7 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        dd($request);
     }
 
     /**

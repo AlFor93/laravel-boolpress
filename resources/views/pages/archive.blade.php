@@ -25,7 +25,7 @@
     </div>
     <h1>Benvenuti nell'archivio Boolpress</h1>
     <div class="right">
-      <a href="archive"><i class="fas fa-archive fa-2x">Archivio</a></i>
+      <a href="{{route('archive')}}"><i class="fas fa-archive fa-2x">Archivio</a></i>
     </div>
   </header>
 
@@ -50,12 +50,12 @@
           <td>
             @foreach($post -> categories as $category)
 
-              {{ $category -> type }} <br>
+              {{ $category -> name }} <br>
             @endforeach
 
           </td>
           <td>{{ $post -> publication_date }}</td>
-          <td  class="author"><a href="{{route('author.show', $post -> author -> id)}}"> {{ $post -> author -> username}} </a></td>
+          <td  class="author"><a href="{{route('author', $post -> author -> id)}}"> {{ $post -> author -> username}} </a></td>
 
 
 
